@@ -1,10 +1,10 @@
 require "language/node"
 
 class Polygraph < Formula
-  desc "Polygraph CLI for agentic cross-repo coordination"
+  desc "CLI to work with Polygraph for agentic cross-repo coordination"
   homepage "https://trypolygraph.com"
-  url "https://registry.npmjs.org/polygraph/-/polygraph-0.1.0.tgz"
-  sha256 "073e0354760358e387f10127499d4d3aa65003657f8174bb78ff93bde668342e"
+  url "https://registry.npmjs.org/polygraph/-/polygraph-0.1.1.tgz"
+  sha256 "4b7d0ca06ec64921ea1fca04642df20a67add1e2fea9d42f757f365f788c4ef3"
   license :cannot_represent # proprietary; mirrors npm "license": "proprietary"
 
   livecheck do
